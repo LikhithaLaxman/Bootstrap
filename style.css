@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.flex-center{
+    align-items: center;
+}
+.circle-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2731c2;
+    border: 2px solid #ffffff;
+    margin-left: 5px;
+    margin-right: 10px;
+    transform: scale(1.2);
+    color: white;
+}
+.accordion-button:not(.collapsed){
+    border: 0px;
+    color: #0c63ef;
+    background-color: #fff;
+    box-shadow: 0 2px 25px -3px rgba(68, 62, 62, 0.1);
+}
